@@ -4,13 +4,13 @@
   vars:
    Number: 70
   tasks:
-  - name: print if the number less than of equal
+  - name: print if the number less than or equal to 100
     ansible.builtin.debug:
-       msg: "Given number {{ NUMBER }} is less than or equal to 100"
+      msg: "Given number {{ NUMBER }} is less than or equal to 100"
     when: NUMBER < 100
 
 
-  - name: print if the number greater than of equal
+  - name: print if the number greater than or equal to 100
     ansible.builtin.debug:
       msg: "Given number {{ NUMBER }} is greater than or equal to 100"
     when: NUMBER > 100
