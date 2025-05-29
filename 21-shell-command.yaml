@@ -13,4 +13,4 @@
 - name: redirect is output to a file
   ansible.builtin.commond: "ls -ltr > /tmp/output1.txt"
     # ansible.builtin.shell: "ls -ltr > /tmp/output.txt"
-  register: command_result
+  register: command_output
