@@ -1,0 +1,5 @@
+- name: shell vs commond
+  hosts: frontend
+  tasks:
+  - name: redirect is output to a file
+    ansible.builtin.commond: "ls -ltr > /tmp/output.txt"
