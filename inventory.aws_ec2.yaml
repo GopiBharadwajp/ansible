@@ -9,3 +9,4 @@ hostnames:
 
 compose:
   ansible_host: Private_ip_adress
+ 
