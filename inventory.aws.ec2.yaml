@@ -1,0 +1,11 @@
+plugin: amazon.aws.aws_ec2
+region:
+- us-east-1
+filters:
+  tag:Name: frontend
+  instance-satate-name: running
+hostnames:
+  - ip-address
+
+compose:
+  ansible_host: Private_ip_adress
