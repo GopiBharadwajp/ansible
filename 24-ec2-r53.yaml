@@ -6,7 +6,7 @@
     - mysql
     - backend
     - frontend
-    vpc_subnet_id: subnet-05889cdae93b7e5a3
+    subnet_id: subnet-05889cdae93b7e5a3
     sg_id: sg-03a031274602046a1
   tasks:
   - name: create ec2
